@@ -1,0 +1,13 @@
+
+
+.header2 {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+
+}
+ul {
+  list-style-type: none;
+  justify-content: space-between;
+}
