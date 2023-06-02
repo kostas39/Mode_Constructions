@@ -1,0 +1,32 @@
+/* Default styles for larger screens */
+.container {
+  width: 1200px;
+}
+
+/* Media query for tablet screens */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.hero-photo{
+  width: 90%;
+}
+.hero-text{
+  width:0%;
+}
+.hero {
+  width: 1400px 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

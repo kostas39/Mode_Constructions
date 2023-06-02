@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+/* Default styles for larger screens */
+.container {
+  width: 1200px;
+}
+
+/* Media query for tablet screens */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
